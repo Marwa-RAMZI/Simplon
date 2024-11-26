@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #0a0101;
+    line-height: 1.6;
+}
+
+.nav-bar {
+    background-color: #600530;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    margin:0 15px;
+    font-size: 20px;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+header h1 {
+    font-size: 30px;
+    background-color: #d21f70;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img {
+    display: block;
+    margin: 20px auto; 
+    border: 5px solid #ddd;
+    max-width: 100%;
+    height: auto;
+}
+
+section h1 {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    max-width: 800px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #f780c6;
+}
+
+section h3 {
+    color: #f780c6;
+    font-size: 1.4em;
+    margin: 15px 0;
+}
+
+img {
+    display: block;
+    margin: 20px auto; /* Centre l'image */
+    border: 5px solid #ddd;
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    display: block;
+    margin: 20px auto;
+}
+
+form {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #760448;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0px 4px 10px rgba(97, 4, 74, 0.2);
+}
+
+form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #343434;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form input[type="radio"] {
+    margin: 0 5px; 
+}
+
+form .radio-group {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 15px; 
+}
+
+form button {
+    display: block;
+    width: 100%;
+    background-color: #e60064;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #b50048;
+}
